@@ -1,0 +1,65 @@
+name: login
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.20.1
+  firebase_auth: ^3.6.3
+  cloud_firestore: ^3.4.4
+  firebase_storage: ^10.3.5
+  get: ^4.6.5
+  get_cli: ^1.8.1
+  ntp: ^2.0.0
+  image_picker: ^0.8.5+3
+  path_provider: 2.0.11
+  convex_bottom_bar: 3.0.0
+  simple_animations: ^2.2.1
+  flutter_auth: ^0.0.1
+  flutter_svg: ^1.1.4
+  google_fonts: ^3.0.1
+  intl: 0.17.0
+  geolocator: 9.0.1
+  geocoding: 2.0.4
+  syncfusion_flutter_datepicker: 20.2.44
+  flutter: 
+    sdk: flutter
+  footer: ^0.0.4
+  fake_gps_detector: ^0.5.1
+  permission_handler: ^10.0.0
+  maps_launcher: ^2.0.1
+  slide_digital_clock: ^1.0.2
+  timer_builder: ^2.0.0
+  http: ^0.13.5
+  map_launcher: ^2.3.0+1
+  flutter_polyline_points: ^1.0.0
+  location: ^4.4.0
+  google_maps_flutter: ^2.1.12
+  dropdown_formfield: ^0.1.4
+  google_sign_in: ^5.4.1
+  multiselect: ^0.0.7
+  csv: ^5.0.1
+  syncfusion_flutter_xlsio: ^20.2.50-beta
+  universal_html: ^2.0.8
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon-12.png"
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.10.0" 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+
+  uses-material-design: true
+  assets: 
+    - assets/
+
+  
+
